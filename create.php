@@ -20,7 +20,7 @@
 					<li><a href="login.php">Already have an Account? Log in Here</a></li>
 					<li><label>
 						<?php
-                        $connect= mysqli_connect("localhost","root","","group2");
+                        $connect= mysqli_connect("localhost","root","","school");
 						if (isset($_POST["btn"])) {
 						$fname = $_POST["fname"];
 						$uname = $_POST["uname"];
