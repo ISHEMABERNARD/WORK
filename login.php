@@ -21,7 +21,7 @@
 				<li><label>
 					<?php
 					if (isset($_POST["btn"])) {
-					$connect= mysqli_connect("localhost","root","","group2");
+					$connect= mysqli_connect("localhost","root","","school");
 					$username = $_POST["uname"];
 					$password = $_POST["password"];
 				
