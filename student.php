@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="nav.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STUDENT REGISTRATION</title>
@@ -10,8 +11,10 @@
     
 <div class="container pt-5" >
     <div class="d-flex justify-content-between" style="border-bottom: 1px solid black;">
-        <h2 class="text-center">REGISTER A STUDENT</h2>
-          <h2><a href="studentlist.php">Students list</a></h2>
+      <button class="tablink"><a href="#">HOME</a></button>
+    <button class="tablink" ><a href="studentlist.php">STUDENT LIST</a></button>
+    <button class="tablink"><a href="markslist.php">MARKS LIST</a></button>
+    <button class="tablink"><a class="active" href="student.php">INSERT STUDENT</a></button>
     </div>
 
     <div class="b">
