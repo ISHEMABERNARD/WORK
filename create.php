@@ -11,7 +11,7 @@
 			<form method="post" action="">
 				<ul>
 					<li><label>Trainers Names</label></li>
-					<li><input type="text" name="tname"></li>
+					<li><input type="text" name="fname"></li>
 					<li><label>User Name</label></li>
 					<li><input type="text" name="uname"></li>
 					<li><label>Password</label></li>
@@ -22,11 +22,11 @@
 						<?php
                         $connect= mysqli_connect("localhost","root","","group2");
 						if (isset($_POST["btn"])) {
-						$tname = $_POST["tname"];
+						$fname = $_POST["fname"];
 						$uname = $_POST["uname"];
 						$password = $_POST["password"];
 
-						$insert= "INSERT INTO student (trainername,username,password) VALUES('$tname','$uname','$password')";
+						$insert= "INSERT INTO admin (fullnames,username,password) VALUES('$fname','$uname','$password')";
 						$query= mysqli_query($connect,$insert);
 
 						}
