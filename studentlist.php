@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>STUDENTLIST</title>
+    <link rel="stylesheet" href="nav.css">
 <link rel="stylesheet" href="css/bootstrap.css">
         <style>
         body{
@@ -15,8 +16,10 @@ font-family: sans-serif;
 <body>
 <div class="container pt-5" >
     <div class="d-flex justify-content-between" style="border-bottom: 1px solid black;">
-        <h2 class="text-center">STUDENT LIST</h2>
-            <h2><a href="student.php">Insert A Student</a></h2>
+     <button class="tablink"><a href="#">HOME</a></button>
+        <button class="tablink"><a  class="active" href="studentlist.php">STUDENT LIST</a></button>
+        <button class="tablink"><a href="markslist.php">MARKS LIST</a></button>
+        <button class="tablink"><a href="student.php">INSERT A STUDENT</a></button>
     </div>
     <div class="table">
         <center>
