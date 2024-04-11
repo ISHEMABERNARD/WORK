@@ -49,7 +49,7 @@ font-family: sans-serif;
             <td><?php echo $rows['age']?></td>
             <td><?php echo $rows['sex']?></td>
             <td><?php echo $rows['level']?></td>
-            <td><a href="marks.php?studentid=<?php echo $rows["sid"]?>">Enter score</a></td>
+            <td><a href="marks.php?studentid=<?php echo $rows["sid"]?>">Enter Marks</a></td>
         </tr>
         <?php
         }
