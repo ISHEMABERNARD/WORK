@@ -28,7 +28,7 @@
 					$result = mysqli_query($connect,"SELECT * FROM admin WHERE username='$username' AND password='$password'");
 					if (mysqli_num_rows($result) ==1) {
 						$_SESSION['mysession']=$username;
-						header("location:homepage.php");
+						header("location:welcome.php");
 					}else{
 						echo "Wrong User name or Password";
 					}
